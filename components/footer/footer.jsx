@@ -21,13 +21,13 @@ export default function Example() {
                 alt="navbar company logo"
               />
             </Link>
-            <Link
+            {/* <Link
               href="tel:+96171390497"
               className="flex flex-row gap-2 items-center w-max hover:bg-stone-100 p-2 rounded-lg"
             >
               <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
               <p> (+961) 71 390497</p>
-            </Link>
+            </Link> */}
             {/* <Link
               href="mailto:info@ShieldHub.com"
               className="flex flex-row gap-2 items-center w-max hover:bg-stone-100 p-2 rounded-lg"
