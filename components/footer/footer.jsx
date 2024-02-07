@@ -22,7 +22,7 @@ export default function Example() {
               />
             </Link>
             <Link
-              href="tel:5624470025"
+              href="tel:+96171390497"
               className="flex flex-row gap-2 items-center w-max hover:bg-stone-100 p-2 rounded-lg"
             >
               <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
@@ -145,12 +145,12 @@ export default function Example() {
         </div>
         <div className="flex flex-col mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
           <ul className="flex flex-row mb-2 gap-2 text-sm">
-            <Link
+            {/* <Link
               className="text-black hover:underline hover:text-blue-800 border-r-2 pr-2"
               href="/company/terms"
             >
               Terms of Service
-            </Link>
+            </Link> */}
             {/* <Link
               className="text-black hover:underline hover:text-blue-800 border-r-2 pr-2"
               href="/company/policy"
@@ -235,10 +235,10 @@ const navigation = {
 };
 
 const footerNavigation = [
-  {
-    name: "Terms of Service",
-    href: "/company/terms",
-  },
+  // {
+  //   name: "Terms of Service",
+  //   href: "/company/terms",
+  // },
   // {
   //   name: "Privacy",
   //   href: "/company/privacy",
