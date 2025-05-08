@@ -9,7 +9,7 @@ export default function ProductsTestimonials() {
             Testimonials
           </h2>
           <p className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-            Join the thousands of customers who love ShieldHub
+            Join the thousands of customers who love InsuranceLB
           </p>
         </div>
         <div className='mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none'>

@@ -12,12 +12,12 @@ export default function Example() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-4">
             <Link href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">ShieldHub Insurance</span>
+              <span className="sr-only">InsuranceLB Insurance</span>
               <Image
-                width={500}
-                height={500}
-                className="h-14 w-auto"
-                src="/favicon.png"
+                width={120}
+                height={120}
+                className="w-auto"
+                src="/logo.png"
                 alt="navbar company logo"
               />
             </Link>
@@ -29,14 +29,14 @@ export default function Example() {
               <p> (+961) 71 390497</p>
             </Link> */}
             {/* <Link
-              href="mailto:info@ShieldHub.com"
+              href="mailto:info@InsuranceLB.com"
               className="flex flex-row gap-2 items-center w-max hover:bg-stone-100 p-2 rounded-lg"
             >
               <EnvelopeIcon
                 className="h-7 w-6 text-gray-400"
                 aria-hidden="true"
               />
-              <p> info@ShieldHub.com</p>
+              <p> info@InsuranceLB.com</p>
             </Link> */}
             <p className="text-sm leading-6 text-gray-600">
               Committed to Your Health, and Shaping Your Future
@@ -165,7 +165,7 @@ export default function Example() {
             </Link> */}
           </ul>
           <p className="text-xs leading-5 text-gray-500">
-            &copy; {new Date().getFullYear()} ShieldHub Insurance. All rights
+            &copy; {new Date().getFullYear()} InsuranceLB Insurance. All rights
             reserved.
           </p>
         </div>

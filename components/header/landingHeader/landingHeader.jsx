@@ -106,7 +106,7 @@ export default function LandingHeader({ landingHeader }) {
               <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
                 {/* {landingText?.landingHeaderText} */}
                 Founded with a commitment to prioritize the well-being of
-                individuals and families, ShieldHub has emerged as a prominent
+                individuals and families, InsuranceLB has emerged as a prominent
                 name in the medical insurance landscape. With a rich history
                 spanning over two years, our mission has been to provide
                 comprehensive healthcare solutions that go beyond coverage – we

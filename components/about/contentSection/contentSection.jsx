@@ -9,18 +9,18 @@ export default function ContentSection() {
           <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-black lg:max-w-none lg:grid-cols-2">
             <div>
               <p>
-                Welcome to ShieldHub, your trusted partner in securing a
-                healthier future. At ShieldHub, we understand the significance of
+                Welcome to InsuranceLB, your trusted partner in securing a
+                healthier future. At InsuranceLB, we understand the significance of
                 comprehensive medical insurance and healthcare coverage. With a
                 commitment to prioritizing your well-being, we take pride in
                 providing personalized insurance solutions tailored to meet the
                 unique needs of individuals and families. Our mission is to
                 empower you with the peace of mind that comes from knowing you
-                have a reliable partner in ShieldHub, ensuring access to
+                have a reliable partner in InsuranceLB, ensuring access to
                 top-notch medical care when you need it most.
               </p>
               <p className="mt-8">
-                Founded on principles of integrity and excellence, ShieldHub is
+                Founded on principles of integrity and excellence, InsuranceLB is
                 dedicated to making quality healthcare accessible and
                 affordable.
               </p>
@@ -32,7 +32,7 @@ export default function ContentSection() {
                 complexities of the healthcare system. Our experienced team is
                 passionate about guiding you through the intricacies of
                 insurance, offering not just policies but a commitment to your
-                health and wellness. Choose ShieldHub and embark on a journey to
+                health and wellness. Choose InsuranceLB and embark on a journey to
                 a healthier, more secure tomorrow.
               </p>
               <p className="mt-8">

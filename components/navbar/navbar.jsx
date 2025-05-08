@@ -34,17 +34,17 @@ export default function Navbar() {
   return (
     <header className='bg-white'>
       <nav
-        className='mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8'
+        className='mx-auto flex max-w-7xl items-center justify-between lg:px-8'
         aria-label='Global'
       >
         <div className='flex lg:flex-1'>
           <Link href='/' className='-m-1.5 p-1.5'>
-            <span className='sr-only'>ShieldHub Insurance</span>
+            <span className='sr-only'>InsuranceLEB</span>
             <Image
-              width={200}
-              height={200}
-              className='h-12 w-auto'
-              src='/favicon.png'
+              width={80} // Increased width
+              height={80} // Increased height
+              className=' w-auto' // Adjusted className for larger height
+              src='/logo.png'
               alt='navbar company logo'
             />
           </Link>
@@ -260,7 +260,7 @@ export default function Navbar() {
         <Dialog.Panel className='fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
           <div className='flex items-center justify-between'>
             <Link href='#' className='-m-1.5 p-1.5'>
-              <span className='sr-only'>ShieldHub Insurance</span>
+              <span className='sr-only'>InsuranceLB Insurance</span>
               <Image
                 className='h-8 w-auto'
                 src='/favicon.png'
@@ -390,14 +390,14 @@ export default function Navbar() {
                 <p> (+961) 71390497</p>
               </Link>
               <Link
-                href='mailto:info@ShieldHub.com'
+                href='mailto:info@InsuranceLB.com'
                 className='flex flex-row gap-2 items-center w-max hover:bg-stone-100 p-2 rounded-lg'
               >
                 <EnvelopeIcon
                   className='h-7 w-6 text-gray-400'
                   aria-hidden='true'
                 />
-                <p> info@ShieldHub.com</p>
+                <p> info@InsuranceLB.com</p>
               </Link> */}
             </div>
           </div>
@@ -499,6 +499,6 @@ const productsCallsToAction = [
   { name: 'Contact sales', href: '/company/contact', icon: PhoneIcon },
 ]
 const companyCallsToAction = [
-  { name: 'info@ShieldHub.com', href: 'mailto:info@ShieldHub.com', icon: EnvelopeIcon },
+  { name: 'info@InsuranceLB.com', href: 'mailto:info@InsuranceLB.com', icon: EnvelopeIcon },
   { name: '(+961) 71390497', href: 'tel:961390497', icon: PhoneIcon },
 ]

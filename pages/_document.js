@@ -12,11 +12,11 @@ export default function Document() {
         />
         <meta
           name="keywords"
-          content="Insurance, Personal insurance, ShieldHub Insurance"
+          content="Insurance, Personal insurance, InsuranceLB Insurance"
         />
         <meta
           name="description"
-          content="Protect your life and assets with ShieldHub Insurance. We offer a range of insurance products including auto, home, life, and health insurance. Our policies are designed to provide you with the coverage you need to safeguard your future. Contact us today for a personalized quote."
+          content="Protect your life and assets with InsuranceLB Insurance. We offer a range of insurance products including auto, home, life, and health insurance. Our policies are designed to provide you with the coverage you need to safeguard your future. Contact us today for a personalized quote."
         />
         <meta name="author" content="Darius Garcia Jr."></meta>
       </Head>

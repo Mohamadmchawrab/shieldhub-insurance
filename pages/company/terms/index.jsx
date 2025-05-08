@@ -4,12 +4,12 @@ export default function TermsAndConditions() {
   return (
     <>
       <Head>
-        <title>ShieldHub - Terms and Conditions</title>
+        <title>InsuranceLB - Terms and Conditions</title>
       </Head>
       <div className="w-full flex flex-col items-center justify-center bg-gray-100">
         <main className="mx-auto w-full max-w-7xl flex flex-col items-center px-3 pb-8 md:pt-12 md:px-8">
           <h1 className="w-full py-12 md:px-8 text-start font-semibold text-4xl">
-            ShieldHub Terms and Conditions
+            InsuranceLB Terms and Conditions
           </h1>
           <div className="bg-white rounded-md">
             <div className="mx-auto max-w-7xl md:px-8">
@@ -20,7 +20,7 @@ export default function TermsAndConditions() {
                   </dt>
                   <dd className="mt-4 lg:col-span-7 lg:mt-0">
                     <p className="text-base leading-7 text-black">
-                      Welcome to ShieldHub, your trusted provider of medical
+                      Welcome to InsuranceLB, your trusted provider of medical
                       insurance and health care coverage. By using our website
                       and services, you agree to comply with and be bound by the
                       following terms and conditions.
@@ -33,7 +33,7 @@ export default function TermsAndConditions() {
                   </dt>
                   <dd className="mt-4 lg:col-span-7 lg:mt-0 flex flex-col gap-8">
                     <p className="text-base leading-7 text-black">
-                      ShieldHub provides a range of insurance services,
+                      InsuranceLB provides a range of insurance services,
                       including medical insurance and health care coverage. By
                       utilizing our services, you acknowledge and agree to the
                       terms outlined in this document.

@@ -90,9 +90,9 @@ export default function ContactForm() {
                   {/* change href email address for production */}
                   <a
                     className='hover:text-gray-900'
-                    href='mailto:info@ShieldHub.com'
+                    href='mailto:info@InsuranceLB.com'
                   >
-                    info@ShieldHub.com
+                    info@InsuranceLB.com
                   </a>
                 </dd>
               </div>

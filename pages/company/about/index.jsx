@@ -9,7 +9,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>ShieldHub - About Us</title>
+        <title>InsuranceLB - About Us</title>
       </Head>
       <div className='bg-stone-50'>
         <main className='relative isolate pb-12 md:pb-24 '>
