@@ -79,71 +79,7 @@ export default function LandingHeader({ landingHeader }) {
       <div className="overflow-hidden">
         <div className="mx-auto max-w-7xl px-6 pb-20 pt-4 lg:px-8 lg:pt-12">
           <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-            <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                <motion.div
-                  variants={textVariants}
-                  initial="hidden"
-                  animate="visible"
-                >
-                  <motion.span variants={wordVariants}>Feel</motion.span>{" "}
-                  <motion.span variants={wordVariants}>secure</motion.span>{" "}
-                  <motion.span variants={wordVariants}>and</motion.span>{" "}
-                  <motion.span variants={wordVariants}>content,</motion.span>{" "}
-                  <motion.span variants={wordVariants}>knowing</motion.span>{" "}
-                  <motion.span variants={wordVariants}>our</motion.span>{" "}
-                  <motion.span variants={wordVariants}>
-                    comprehensive
-                  </motion.span>{" "}
-                  <motion.span variants={wordVariants}>policies</motion.span>{" "}
-                  <motion.span variants={wordVariants}>have</motion.span>{" "}
-                  <motion.span variants={wordVariants}>you</motion.span>{" "}
-                  <motion.span variants={wordVariants}>covered.</motion.span>
-                </motion.div>
-              </h1>
-              {/* {landingHeader?.length > 0 &&
-                landingHeader?.map((landingText) => ( */}
-              <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                {/* {landingText?.landingHeaderText} */}
-                Founded with a commitment to prioritize the well-being of
-                individuals and families, InsuranceLB has emerged as a prominent
-                name in the medical insurance landscape. With a rich history
-                spanning over two years, our mission has been to provide
-                comprehensive healthcare solutions that go beyond coverage – we
-                strive to nurture and safeguard the vitality of our valued
-                clients.
-              </p>
-              {/* ))} */}
-              {/* {!landingHeader?.length > 0 && <p>Error fetching content.</p>} */}
-              <div className="mt-10 flex items-center gap-x-6">
-                {/* TODO: change link */}
-                <Link
-                  href=""
-                  className="rounded-md bg-sky-600 px-3.5 py-2.5
-                  text-sm font-semibold text-white shadow-sm hover:bg-sky-500
-                  focus-visible:outline focus-visible:outline-2
-                  focus-visible:outline-offset-2
-                  focus-visible:outline-indigo-600"
-                  onClick={() => {
-                    const phoneNumber = "+96171390497";
-                    const message = encodeURIComponent(
-                      "Hi there! 👋 I've been hearing great things about your services and I'm eager to learn more. Can you please provide me with some details?"
-                    );
-                    window.location.href = `https://wa.me/${phoneNumber}?text=${message}`;
-                  }}
-                >
-                  Get started
-                </Link>
-                {/* <Link
-                  href="/company/contact"
-                  className="text-sm font-semibold leading-6
-                  text-gray-900 hover:underline hover:opacity-80"
-                >
-                  Contact us <span aria-hidden="true">→</span>
-                </Link> */}
-              </div>
-            </div>
-            <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
+          <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
               <motion.div
                 animate={{
                   y: -20,
@@ -219,6 +155,71 @@ export default function LandingHeader({ landingHeader }) {
                 </div>
               </motion.div>
             </div>
+            <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                <motion.div
+                  variants={textVariants}
+                  initial="hidden"
+                  animate="visible"
+                >
+                  <motion.span variants={wordVariants}>Feel</motion.span>{" "}
+                  <motion.span variants={wordVariants}>secure</motion.span>{" "}
+                  <motion.span variants={wordVariants}>and</motion.span>{" "}
+                  <motion.span variants={wordVariants}>content,</motion.span>{" "}
+                  <motion.span variants={wordVariants}>knowing</motion.span>{" "}
+                  <motion.span variants={wordVariants}>our</motion.span>{" "}
+                  <motion.span variants={wordVariants}>
+                    comprehensive
+                  </motion.span>{" "}
+                  <motion.span variants={wordVariants}>policies</motion.span>{" "}
+                  <motion.span variants={wordVariants}>have</motion.span>{" "}
+                  <motion.span variants={wordVariants}>you</motion.span>{" "}
+                  <motion.span variants={wordVariants}>covered.</motion.span>
+                </motion.div>
+              </h1>
+              {/* {landingHeader?.length > 0 &&
+                landingHeader?.map((landingText) => ( */}
+              <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
+                {/* {landingText?.landingHeaderText} */}
+                Founded with a commitment to prioritize the well-being of
+                individuals and families, InsuranceLB has emerged as a prominent
+                name in the medical insurance landscape. With a rich history
+                spanning over two years, our mission has been to provide
+                comprehensive healthcare solutions that go beyond coverage – we
+                strive to nurture and safeguard the vitality of our valued
+                clients.
+              </p>
+              {/* ))} */}
+              {/* {!landingHeader?.length > 0 && <p>Error fetching content.</p>} */}
+              <div className="mt-10 flex items-center gap-x-6">
+                {/* TODO: change link */}
+                <Link
+                  href=""
+                  className="rounded-md bg-sky-600 px-3.5 py-2.5
+                  text-sm font-semibold text-white shadow-sm hover:bg-sky-500
+                  focus-visible:outline focus-visible:outline-2
+                  focus-visible:outline-offset-2
+                  focus-visible:outline-indigo-600"
+                  onClick={() => {
+                    const phoneNumber = "+96171390497";
+                    const message = encodeURIComponent(
+                      "Hi there! 👋 I've been hearing great things about your services and I'm eager to learn more. Can you please provide me with some details?"
+                    );
+                    window.location.href = `https://wa.me/${phoneNumber}?text=${message}`;
+                  }}
+                >
+                  Get a quote
+                </Link>
+                {/* <Link
+                  href="/company/contact"
+                  className="text-sm font-semibold leading-6
+                  text-gray-900 hover:underline hover:opacity-80"
+                >
+                  Contact us <span aria-hidden="true">→</span>
+                </Link> */}
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>

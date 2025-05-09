@@ -19,11 +19,11 @@ export default function CallAgent() {
       onMouseLeave={onLeave}
       role="button"
       tabIndex="-3"
-      className={`w-full sm:w-max p-2 leading-6 text-gray-900 md:bg-stone-100 md:hover:bg-stone-200 rounded-lg text-sm font-semibold ${
-        hover
-          ? "transition-transform duration-300 transform scale-105"
-          : "transition-transform duration-50 transform scale-5"
-      }`}
+      className={`w-full sm:w-max p-2 leading-6 text-gray-900 md:bg-stone-100 md:hover:bg-stone-200 rounded-lg text-sm font-semibold
+        // hover
+        //   ? "transition-transform duration-300 transform scale-105"
+        //   : "transition-transform duration-50 transform scale-5"
+      `}
       // TODO: change cellphone number
       href=""
       onClick={() => {
@@ -34,7 +34,7 @@ export default function CallAgent() {
         window.location.href = `https://wa.me/${phoneNumber}?text=${message}`;
       }}
     >
-      {hover
+      {/* {hover
         ? [
             <span
               key="call an agent"
@@ -72,8 +72,8 @@ export default function CallAgent() {
               </svg>
               (+961)71390497
             </span>,
-          ]
-        : [
+          ] */}
+        {/* : [ */}
             <span
               key="phone icon"
               className="flex flex-row w-32 h-4 items-center justify-center gap-2 text-center"
@@ -110,8 +110,8 @@ export default function CallAgent() {
                 />
               </svg>
               Get in Touch
-            </span>,
-          ]}
+            </span>
+          {/* ]} */}
     </Link>
   );
 }

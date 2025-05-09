@@ -9,28 +9,29 @@ const features = [
   {
     name: "Unwavering Confidentiality",
     description:
-      "We understand the importance of confidentiality when it comes to your health matters. Our dedicated team adheres to the highest standards of privacy. ",
+      "As your insurance broker, we uphold strict confidentiality for all health-related matters—your personal data is handled with the utmost discretion and care.",
     icon: CloudArrowUpIcon,
   },
   {
     name: "Fortified Data Protection",
     description:
-      "Consider us the Fort Knox of health data. Our robust data protection infrastructure ensures that your sensitive health information remains guarded against any potential threats. ",
+      "Our advanced security infrastructure ensures your medical and personal data is protected from unauthorized access—meeting and exceeding industry compliance standards.",
     icon: LockClosedIcon,
   },
   {
     name: "Ensuring Your Peace of Mind",
     description:
-      "We understand the importance of confidentiality when it comes to your health matters. Our dedicated team adheres to the highest standards of privacy. ",
+      "Our priority is to provide more than coverage—we aim to give you peace of mind, knowing your information is secure and handled by professionals you can trust.",
     icon: ArrowPathIcon,
   },
   {
     name: "A Promise of Privacy",
     description:
-      "Your privacy is not just a priority; its our promise. We go beyond industry standards to protect your health information.",
+      "Privacy is not just a commitment—it's a guarantee. We go the extra mile to protect your information beyond regulatory requirements.",
     icon: FingerPrintIcon,
   },
 ];
+
 
 export default function LandingServices() {
   return (
@@ -41,7 +42,7 @@ export default function LandingServices() {
             Don&apos;t wait
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Guardians of Your Well-Being - Rely on Us for Your Safety and Asset
+            Guardians of Your Well-Being
             Protection
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">

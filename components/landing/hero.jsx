@@ -39,7 +39,7 @@ const Hero = () => {
                     window.location.href = `https://wa.me/${phoneNumber}?text=${message}`;
                   }}
                 >
-                  Get started
+                  Get a quote
                 </Link>
             </div>
         </div>

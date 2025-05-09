@@ -262,10 +262,10 @@ export default function Navbar() {
             <Link href='#' className='-m-1.5 p-1.5'>
               <span className='sr-only'>InsuranceLB Insurance</span>
               <Image
-                className='h-8 w-auto'
-                src='/favicon.png'
-                width={200}
-                height={200}
+                className='w-auto'
+                src='/logo.png'
+                width={60}
+                height={60}
                 alt='navbar company logo'
               />
             </Link>
@@ -470,35 +470,4 @@ const company = [
     href: '/company/about',
     icon: UserGroupIcon,
   },
-  // {
-  //   name: 'Testimonials',
-  //   description: 'Sint aliqua anim nulla sunt mollit id pariatur',
-  //   href: '/company/testimonials',
-  //   icon: HeartIcon,
-  // },
-  // {
-  //   name: 'Terms of service',
-  //   description: 'Sint aliqua anim nulla sunt mollit id pariatur',
-  //   href: '/company/terms',
-  //   icon: ClipboardDocumentIcon,
-  // },
-  // {
-  //   name: 'Privacy policy',
-  //   description: 'Sint aliqua anim nulla sunt mollit id pariatur',
-  //   href: '/company/policy',
-  //   icon: FingerPrintIcon,
-  // },
-]
-
-const productsCallsToAction = [
-  {
-    name: 'Watch demo',
-    href: 'products/explore',
-    icon: PlayCircleIcon,
-  },
-  { name: 'Contact sales', href: '/company/contact', icon: PhoneIcon },
-]
-const companyCallsToAction = [
-  { name: 'info@InsuranceLB.com', href: 'mailto:info@InsuranceLB.com', icon: EnvelopeIcon },
-  { name: '(+961) 71390497', href: 'tel:961390497', icon: PhoneIcon },
 ]

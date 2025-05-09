@@ -79,109 +79,23 @@ export default function FaqComponent({ faqText }) {
 
 const faqs = [
   {
-    question:
-      "What is the limit of the coverage provided by this medical insurance policy?",
-    answer:
-      "It depends on the policy you purchase; our best policy has unlimited coverage.",
+    question: "What’s the maximum coverage I can get?",
+    answer: "Our top plans offer unlimited coverage. Other options vary based on your selected policy.",
   },
   {
-    question:
-      "Which hospitals and medical centers are included in the network covered by this insurance plan?",
-    answer: "It depends on the policy you purchase.",
+    question: "Which hospitals are included in the coverage?",
+    answer: "We work with a wide network of hospitals and clinics. The exact list depends on your chosen plan.",
   },
   {
-    question:
-      "What does the medical policy specifically cover in terms of medical expenses and services?",
-    answer:
-      "The policy covers emergency cases from day 1, and coverage for other conditions will depend on the specific policy you choose.",
+    question: "What does the insurance cover?",
+    answer: "Emergency treatments are covered from day one. Other benefits like consultations, surgeries, and maternity depend on the policy type.",
   },
   {
-    question:
-      "Are there any exclusions or limitations on coverage that I should be aware of?",
-    answer:
-      "Usually, insurance policies cover all acute medical cases. To cover chronic cases, you need to declare them before purchasing the policy. There may be either a limitation or an exclusion on specific conditions, depending on the case.",
+    question: "Are chronic conditions included?",
+    answer: "Yes, but they must be declared before purchase. Some conditions may have limitations or waiting periods.",
   },
   {
-    question: "What is the annual premium for the medical insurance plan?",
-    answer: "It will depend on the policy you choose.",
-  },
-  {
-    question:
-      "Can I pay the premium in several installments rather than a one-time payment?",
-    answer:
-      "Our prices are very competitive in the market; however, payment must be made in a one-time installment.",
-  },
-  {
-    question:
-      "How does the co-payment or co-insurance work for various medical services?",
-    answer: "It will depend on the policy you choose.",
-  },
-  {
-    question:
-      "Does the insurance plan cover prescription medications, and if so, what is the coverage like?",
-    answer: "Unfortunately, it doesn't.",
-  },
-  {
-    question:
-      "Are pre-existing conditions covered, and if yes, is there a waiting period?",
-    answer: "All pre-existing conditions require a 6-month waiting period.",
-  },
-  {
-    question:
-      "Are regular checkups and preventive care services covered by the insurance plan?",
-    answer:
-      "If it's a random checkup, unfortunately, it will not be covered. However, if you have a medical condition prompting the checkup, it will be covered.",
-  },
-  {
-    question:
-      "Can I add dependents to the insurance plan, and will the policy be cheaper if I do so?",
-    answer: "Yes, adding dependents will make the policy cheaper.",
-  },
-  {
-    question:
-      "How does the claims process work, and what documentation is required for reimbursement?",
-    answer: "The claims process will be through the NextCare application.",
-  },
-  {
-    question: "Is maternity coverage included in the medical insurance policy?",
-    answer:
-      "Maternity will be covered if the inception date is after purchasing the policy.",
-  },
-  {
-    question:
-      "Does the insurance plan cover dental services, and if so, what is the coverage like?",
-    answer: "Unfortunately, no.",
-  },
-  {
-    question:
-      "What is the policy on emergency medical treatment and coverage outside the country?",
-    answer:
-      "Emergency medical treatment outside the country will be covered on a reimbursement basis.",
-  },
-  {
-    question:
-      "How often can I review or change my coverage, and what is the process for doing so?",
-    answer:
-      "You can review or change your coverage on the renewal date of the policy.",
-  },
-  {
-    question:
-      "Does the insurance plan offer any additional benefits, such as mental health coverage or alternative therapies?",
-    answer: "It will depend on the policy you choose.",
-  },
-  {
-    question:
-      "How stable is the insurance company you work with, and what is their reputation for customer service?",
-    answer: "Securite is one of the largest insurance companies in the region.",
-  },
-  {
-    question:
-      "How long should I wait to be covered for outpatient or ambulatory services?",
-    answer: "A 6-month waiting period is applicable.",
-  },
-  {
-    question:
-      "How long should I wait to be covered for emergency medical cases?",
-    answer: "Coverage begins from day 1.",
-  },
-];
+    question: "How much does the insurance cost?",
+    answer: "It varies based on coverage, age, and benefits. We’ll help you find the best fit for your budget.",
+  }
+]
