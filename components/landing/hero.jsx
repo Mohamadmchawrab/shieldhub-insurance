@@ -32,7 +32,7 @@ const Hero = () => {
                   focus-visible:outline-offset-2
                   focus-visible:outline-indigo-600"
                   onClick={() => {
-                    const phoneNumber = "+96171390497";
+                    const phoneNumber = "+96171480345";
                     const message = encodeURIComponent(
                       "Hi there! 👋 I've been hearing great things about your services and I'm eager to learn more. Can you please provide me with some details?"
                     );

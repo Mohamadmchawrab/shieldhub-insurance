@@ -22,7 +22,7 @@ export default function Example() {
               />
             </Link>
             {/* <Link
-              href="tel:+96171390497"
+              href="tel:+96171480345"
               className="flex flex-row gap-2 items-center w-max hover:bg-stone-100 p-2 rounded-lg"
             >
               <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
