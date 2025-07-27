@@ -72,9 +72,9 @@ export default function ContactForm() {
                 <dd>
                   <a
                     className='hover:text-gray-900'
-                    href='tel: (+961) 71480345'
+                    href='tel: (+961) 78791910'
                   >
-                    +(961) 71480345
+                    +(961) 78791910
                   </a>
                 </dd>
               </div>

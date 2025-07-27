@@ -11,18 +11,22 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-8 sm:pt-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-4">
-            <Link href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">InsuranceLB Insurance</span>
-              <Image
-                width={120}
-                height={120}
-                className="w-auto"
-                src="/logo.png"
-                alt="navbar company logo"
-              />
+            <Link href='/' className='-m-1.5 p-1.5'>
+              <div className='flex flex-row items-center'>
+                <Image
+                  width={70} // Increased width
+                  height={80} // Increased height
+                  className=' w-auto' // Adjusted className for larger height
+                  src='/nabeel.png'
+                  alt='navbar company logo'
+                />
+                <div className='flex text-5xl font-bold'>
+                  <div>Insurance</div><div className='text-green-800'>LEB</div>
+                </div>
+              </div>
             </Link>
             {/* <Link
-              href="tel:+96171480345"
+              href="tel:+96178791910"
               className="flex flex-row gap-2 items-center w-max hover:bg-stone-100 p-2 rounded-lg"
             >
               <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />

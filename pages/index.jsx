@@ -2,7 +2,7 @@ import Head from "next/head";
 import LandingHeader from "@/components/header/landingHeader/landingHeader";
 import LandingServices from "@/components/landing/services";
 import Hero from "@/components/landing/hero";
-import LandingTestimonials from "@/components/testimonials/testimonials";
+import ServicesAvailable from "@/components/landing/services-available";
 import LandingCTA from "@/components/landing/cta";
 import Faq from "./resources/faq";
 // import { createClient } from 'next-sanity'
@@ -21,9 +21,11 @@ export default function Home({ landingHeader, testimonialsText }) {
       <div className="h-full overflow-hidden">
         <main className="h-full">
           <Hero />
-          <LandingServices />
-          <LandingHeader landingHeader={landingHeader} />
+          {/* <LandingHeader landingHeader={landingHeader} /> */}
           {/* <LandingTestimonials testimonialsText={testimonialsText} /> */}
+          <ServicesAvailable />
+          <LandingServices />
+
           <LandingCTA />
           <Faq />
         </main>
