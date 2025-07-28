@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-8 text-white md:gap-0 h-full">
+      <div className="relative z-10 flex flex-col md:flex-row items-center justify-evenly md:gap-20 px-4 text-white h-full">
         {/* Text */}
         <div className="flex flex-col items-start  md:text-left">
           <h1 className="text-2xl sm:text-3xl  md:text-5xl font-extrabold mb-3">
@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
 
         {/* Logo */}
-        <div className="pt-4 md:pt-0">
+        <div className="md:pt-0">
           <Image
             src="/nabeel-icons.png"
             width={230}

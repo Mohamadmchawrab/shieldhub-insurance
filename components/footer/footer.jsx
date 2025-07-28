@@ -14,13 +14,13 @@ export default function Example() {
             <Link href='/' className='-m-1.5 p-1.5'>
               <div className='flex flex-row items-center'>
                 <Image
-                  width={70} // Increased width
+                  width={60} // Increased width
                   height={80} // Increased height
                   className=' w-auto' // Adjusted className for larger height
                   src='/nabeel.png'
                   alt='navbar company logo'
                 />
-                <div className='flex text-5xl font-bold'>
+                <div className='flex text-2xl font-bold'>
                   <div>Insurance</div><div className='text-green-800'>LEB</div>
                 </div>
               </div>
